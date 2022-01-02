@@ -5,18 +5,19 @@ import models.Teacher;
 import java.util.List;
 
 public class TeacherService implements CRUDInterface<Teacher> {
+
     @Override
-    public void add() {
+    public void add(Teacher teacher) {
 
     }
 
     @Override
-    public void edit() {
+    public void edit(Teacher teacher, int id) {
 
     }
 
     @Override
-    public void delete() {
+    public void delete(int id) {
 
     }
 

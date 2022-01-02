@@ -29,10 +29,10 @@ public class MainClass {
                     studentService.add(inputNewStudent());
                     break;
                 case 3:
-                    studentService.delete();
+//                    studentService.delete();
                     break;
                 case 4:
-                    studentService.edit();
+//                    studentService.edit();
                     break;
                 case 0:
                     System.out.println("Chương trình đang tắt...");
