@@ -2,8 +2,7 @@ package models;
 
 public abstract class Person {
     protected int id;
-    protected
-    String name;
+    protected String name;
     protected int age;
 
     public Person() {

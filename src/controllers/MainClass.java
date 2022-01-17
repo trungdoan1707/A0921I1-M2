@@ -45,11 +45,18 @@ public class MainClass {
 
     public static Student inputNewStudent() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Mời bạn nhập thông tin của sinh viên mới ");
+        System.out.println("Nhap id cho sinh viên: ");
         int id = Integer.parseInt(scanner.nextLine());
+        System.out.println("Nhập tên cho sinh viên: ");
         String name = scanner.nextLine();
-        int age = scanner.nextInt();
+        System.out.println("Nhập tuổi cho sinh viên: ");
+        int age = Integer.parseInt(scanner.nextLine());
+        System.out.println("Nhập địa chỉ cho sinh viên: ");
         String address = scanner.nextLine();
+        System.out.println("Nhập email cho sinh viên: ");
         String email = scanner.nextLine();
+        System.out.println("Nhập password cho sinh viên: ");
         String password = scanner.nextLine();
         Student student = new Student(id, name, age, address, email, password);
         return student;
